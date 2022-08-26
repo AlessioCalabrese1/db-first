@@ -1,0 +1,21 @@
+NOME FILE: vendita auto usate
+
+id - intero - SMALLINT - PRIMARY_KEY - AUTO_INCREMENT
+descrizione - stringa - TEXT
+marca - stringa - VARCHAR(8)
+n_posti - intero - TINYINT
+modello - stringa - VARCHAR(20)
+n_porte - intero - TINYINT
+versione - stringa - VARCHAR(60)
+tipo_veicolo - stringa - VARCHAR(5)
+alimentazione - stringa - VARCHAR(10)
+cilindrata - intero - SMALLINT
+cavalli - intero - SMALLINT
+tipologia_auto - stringa - VARCHAR(15)
+classe_emissioni - stringa - VARCHAR(5)
+km - intero - MEDIUMINT
+tipo_cambio - stringa - VARCHAR(10)
+immatricolazione - data - DATE
+peso_kg - intero - SMALLINT
+altezza_m - float - FLOAT(4,3)
+lunghezza_m - float - FLOAT(4,3)
